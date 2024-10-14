@@ -1,7 +1,3 @@
-# 1. Un vehículo contiene los siguientes atributos: marca, modelo y número de ruedas.
-# 2. Un automóvil contiene los siguientes atributos: marca, modelo, número de ruedas,
-# velocidad y cilindrada.
-
 class Vehiculo:
     def __init__(self, marca, modelo, num_ruedas):
         self.marca = marca
@@ -53,42 +49,14 @@ class Motocicleta(Bicicleta):
         return (f'Marca {self.marca}, Modelo {self.modelo}, {self.num_ruedas} ruedas Tipo: {self.tipo}, {self.nro_radio}, {self.cuadro},{self.motor}')
 
 
-# Ingresar vehiculos
-# def ingresar_vehiculos(cant_vehiculos):
-#     vehiculos =[]
 
-#     for item in range(cant_vehiculos):
-#         marca = input('Inserte la marca del automóvil:')
-#         modelo = input('Inserte el modelo:')
-#         num_ruedas = input('Inserte el número de ruedas:')
-#         velocidad = input('Inserte la velocidad en km/h:')
-#         cilindrada = input('Inserte el cilindraje en cc:')
 
-#         print(marca, modelo, num_ruedas, velocidad, cilindrada)
-#         a = [f'Datos del automovil {item +1}', marca, modelo, num_ruedas, velocidad, cilindrada]
-#         vehiculos.append(a)
 
-#     print("\nResultados finales:")
-#     for vehiculo in vehiculos:
-#         print(', '.join(map(str, vehiculo)))  # Mostrar sin comillas ni paréntesis
-
-#     return vehiculos
 
   
 
 
-# solicitar datos al usuario (main.py despues)
-print('SISTEMA DE CONTROL DE VEHÍCULOS')
-print('===============================')
 
-# c_vehiculos = input('Cuantos Vehiculos desea insertar:')
-# cant_vehiculos = int(c_vehiculos)
-
-# if cant_vehiculos > 1:
-#     ingresar_vehiculos(cant_vehiculos)
-#     print('=================================')
-# else:
-#     print('Debes ingresar al menos un vehiculo te dicen!!!')
 
 
 

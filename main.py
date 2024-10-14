@@ -1,6 +1,15 @@
+from utils import ingresar_vehiculos
 
-# Diseñe el diagrama de clases según los datos capturados con el cliente.
-# Partiendo del diseño de diagrama de clases previamente construido, diseñe en las Clases
-# en Python.
+# solicitar datos al usuario
+print('===============================')
+print('SISTEMA DE CONTROL DE VEHÍCULOS')
+print('===============================')
 
-# Genere tres instancias, y al ejecutar el programa se debe mostrar lo siguiente:
+c_vehiculos = input('Cuantos Vehiculos desea insertar:')
+cant_vehiculos = int(c_vehiculos)
+
+if cant_vehiculos > 1:
+    ingresar_vehiculos(cant_vehiculos)
+    print('=================================')
+else:
+    print('Debes ingresar al menos un vehiculo te dicen!!!')
