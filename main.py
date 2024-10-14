@@ -8,7 +8,7 @@ print('===============================')
 c_vehiculos = input('Cuantos Vehiculos desea insertar:')
 cant_vehiculos = int(c_vehiculos)
 
-if cant_vehiculos > 1:
+if cant_vehiculos >= 1:
     ingresar_vehiculos(cant_vehiculos)
     print('=================================')
 else:
