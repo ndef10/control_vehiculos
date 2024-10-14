@@ -97,39 +97,36 @@ print('===============================')
 def mostrar_relacion(motocicleta):
 
     if isinstance(motocicleta, Vehiculo):
-        print(f'{isinstance(motocicleta, Vehiculo)}') #true
+        print(f'Motocicleta es instancia con relación a Vehículo: {isinstance(motocicleta, Vehiculo)}') #true
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Vehículo: {isinstance(motocicleta, Vehiculo)}')
 
     if isinstance(motocicleta, Automovil):
-        print(f'{isinstance(motocicleta, Automovil)}') #false
+        print(f'Motocicleta es instancia con relación a Automovil: {isinstance(motocicleta, Automovil)}') #false
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Automovil: {isinstance(motocicleta, Automovil)}')
 
     if isinstance(motocicleta, AutomovilParticular):
-        print(f'{isinstance(motocicleta, AutomovilParticular)}') #false
+        print(f'Motocicleta es instancia con relación a Vehículo particular: {isinstance(motocicleta, AutomovilParticular)}') #false
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Vehículo particular: {isinstance(motocicleta, AutomovilParticular)}')
 
     if isinstance(motocicleta, AutomovilCarga):
-        print(f'{isinstance(motocicleta, AutomovilCarga)}') #false
+        print(f'Motocicleta es instancia con relación a Vehículo de Carga: {isinstance(motocicleta, AutomovilCarga)}') #false
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Vehículo de Carga: {isinstance(motocicleta, AutomovilCarga)}')
 
     if isinstance(motocicleta, Bicicleta):
-        print(f'{isinstance(motocicleta, Bicicleta)}') #true
+        print(f'Motocicleta es instancia con relación a Bicicleta: {isinstance(motocicleta, Bicicleta)}') #true
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Bicicleta: {isinstance(motocicleta, Bicicleta)}')
 
     if isinstance(motocicleta, Motocicleta):
-        print(f'{isinstance(motocicleta, Motocicleta)}') #true
+        print(f'Motocicleta es instancia con relación a Motocicleta: {isinstance(motocicleta, Motocicleta)}') #true
     else:
-        print('NOOOOO!!!')
+        print(f'Motocicleta es instancia con relación a Motocicleta: {isinstance(motocicleta, Motocicleta)}')
 
-    
-
-
-
+   
 
 
 # ===============================
